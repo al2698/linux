@@ -91,7 +91,7 @@ echo "tom" | passwd --stiden tom ##修改使用者密碼
 
 ## 腳本
 
-![photo_2022-06-13_10-25-02](C:\Users\b5102\Downloads\Telegram Desktop\5-3\photo_2022-06-13_10-25-02.jpg)
+![photo_2022-06-13_10-25-02]https://github.com/al2698/linux/tree/master/5-3/photo_2022-06-13_10-25-02.jpg)
 
 ------
 
@@ -142,13 +142,13 @@ ps. rwx = 4+2+1 = 7
 
 ## find  /  -type  f  -name  '*.txt'
 
-![photo_2022-05-03_10-33-19](C:\Users\b5102\Downloads\Telegram Desktop\5-3\photo_2022-05-03_10-33-19.jpg)
+![photo_2022-05-03_10-33-19]https://github.com/al2698/linux/tree/master/5-3/photo_2022-05-03_10-33-19.jpg)
 
 ## 量檔案備份
 
-![photo_2022-06-13_10-24-54](C:\Users\b5102\Downloads\Telegram Desktop\5-3\photo_2022-06-13_10-24-54.jpg)
+![photo_2022-06-13_10-24-54]https://github.com/al2698/linux/tree/master/5-3/photo_2022-06-13_10-24-54.jpg)
 
-![photo_2022-06-13_10-25-02](C:\Users\b5102\Downloads\Telegram Desktop\5-3\photo_2022-06-13_10-25-02.jpg)
+![photo_2022-06-13_10-25-02]https://github.com/al2698/linux/tree/master/5-3/photo_2022-06-13_10-25-02.jpg)
 
 ```
 cat /etc/resolv.conf ##可以修改ping(把resolv.conf當檔案)
@@ -218,7 +218,7 @@ grep -C 1 127 /etc/hosts ##前跟後
 
 ## grep 應用
 
-![photo_2022-06-14_07-26-37](C:\Users\b5102\Downloads\Telegram Desktop\5-10\photo_2022-06-14_07-26-37.jpg)
+![photo_2022-06-14_07-26-37]https://github.com/al2698/linux/tree/master/5-10/photo_2022-06-14_07-26-37.jpg)
 
 ***
 
@@ -305,7 +305,7 @@ lsblk 會列出所有 區塊設備 (Block devices) 的資訊,可以使用 -d 參
 
 ## lsblk -f
 
-![photo_2022-06-14_07-36-15](C:\Users\b5102\Downloads\Telegram Desktop\5-17\photo_2022-06-14_07-36-15.jpg)
+![photo_2022-06-14_07-36-15]https://github.com/al2698/linux/tree/master/5-17/photo_2022-06-14_07-36-15.jpg)
 
 ```
 ext2 ext3 ext4 xfs (linux常用掛載檔案格式)
@@ -326,7 +326,7 @@ vfat 不需要驅動程式
 
 找尋在線的使用者：
 
-![photo_2022-05-17_11-59-07](C:\Users\b5102\Downloads\Telegram Desktop\5-17\photo_2022-05-17_11-59-07.jpg)
+![photo_2022-05-17_11-59-07]https://github.com/al2698/linux/tree/master/5-17/photo_2022-05-17_11-59-07.jpg)
 
 in centos system, uid < 1000 (system account), >=1000 (normal user account)
 system account (nologin)  , user account (bash)
@@ -335,7 +335,7 @@ system account (nologin)  , user account (bash)
 
 ## linux 開機執行的第一個程式
 
-![photo_2022-05-24_09-40-46](C:\Users\b5102\Downloads\Telegram Desktop\5-24\photo_2022-05-24_09-40-46.jpg)
+![photo_2022-05-24_09-40-46]https://github.com/al2698/linux/tree/master/5-24/photo_2022-05-24_09-40-46.jpg)
 
 ## 為什麼init會被systemb取代
 
@@ -344,7 +344,7 @@ system account (nologin)  , user account (bash)
 
 當我們在終端下執行**pstree**命令時，即**以樹的形式顯示所有進程的層次**時，會發現應該是**init進程**的地方卻變成了**systemd**。
 
-![20191102185815236](C:\Users\b5102\Downloads\Telegram Desktop\5-31\20191102185815236.png)
+![20191102185815236]https://github.com/al2698/linux/tree/master/5-31/20191102185815236.png)
 
 
 ```
@@ -398,11 +398,11 @@ $@
 !!	
 ```
 
-![photo_2022-06-14_06-11-13](C:\Users\b5102\Downloads\Telegram Desktop\6-7\photo_2022-06-14_06-11-13.jpg)
+![photo_2022-06-14_06-11-13]https://github.com/al2698/linux/tree/master/6-7/photo_2022-06-14_06-11-13.jpg)
 
-![photo_2022-06-14_06-11-16](C:\Users\b5102\Downloads\Telegram Desktop\6-7\photo_2022-06-14_06-11-16.jpg)
+![photo_2022-06-14_06-11-16]https://github.com/al2698/linux/tree/master/6-7/photo_2022-06-14_06-11-16.jpg)
 
-![photo_2022-06-14_06-11-20](C:\Users\b5102\Downloads\Telegram Desktop\6-7\photo_2022-06-14_06-11-20.jpg)
+![photo_2022-06-14_06-11-20]https://github.com/al2698/linux/tree/master/6-7/photo_2022-06-14_06-11-20.jpg)
 
 ***
 
@@ -432,4 +432,4 @@ su 跟 su-差別：
 也就是說su只能獲得root的執行權限，不能獲得環境變量
 而su -是切換到root並獲得root的環境變量及執行權限
 
-![photo_2022-06-14_06-03-32](C:\Users\b5102\Downloads\Telegram Desktop\6-7\photo_2022-06-14_06-03-32.jpg)
+![photo_2022-06-14_06-03-32]https://github.com/al2698/linux/tree/master/6-7/photo_2022-06-14_06-03-32.jpg)
